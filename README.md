@@ -1,7 +1,7 @@
 Steps to Run the program
 
 Step 1: clone the repository using below command
-git clone 
+git clone https://github.com/rahil-inexture/reactive-programming.git
 
 Step 2: move to the project directory using below command
 cd reactive-programming
