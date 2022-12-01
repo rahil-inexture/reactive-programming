@@ -17,7 +17,7 @@ mvn spring-boot:run
 
 Step 4: go to any browser and hit the below URL
 
-http://localhost:8080/test
+http://localhost:8080/foo-info
 
 
 You will see that one resource will be returned at every second.
