@@ -25,4 +25,12 @@ public class Foo {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	@Override
+	public String toString() {
+		return "Foo{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				'}';
+	}
 }
