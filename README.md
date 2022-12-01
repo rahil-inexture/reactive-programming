@@ -1,15 +1,15 @@
-# Getting Started
+Steps to Run the program
 
-### Reference Documentation
-For further reference, please consider the following sections:
+Step 1: clone the repository using below command
+git clone 
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.6.5/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.6.5/maven-plugin/reference/html/#build-image)
-* [Spring Reactive Web](https://docs.spring.io/spring-boot/docs/2.6.5/reference/htmlsingle/#web.reactive)
+Step 2: move to the project directory using below command
+cd reactive-programming
 
-### Guides
-The following guides illustrate how to use some features concretely:
+Step 3: run the project using below command
+mvn spring-boot:run
 
-* [Building a Reactive RESTful Web Service](https://spring.io/guides/gs/reactive-rest-service/)
+Step 4: go to any browser and hit the below URL
+http://localhost:8080/test
 
+You will see that one resource will be returned at every second.
